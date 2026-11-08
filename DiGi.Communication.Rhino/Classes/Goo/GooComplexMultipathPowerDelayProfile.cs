@@ -41,7 +41,7 @@ namespace DiGi.Communication.Rhino.Classes.Goo
     /// <summary>
     /// Represents a Grasshopper parameter for the complex multipath power delay profile.
     /// </summary>
-    public class GooComplexMultipathPowerDelayProfileParam : GooPresistentParam<GooComplexMultipathPowerDelayProfile, IComplexMultipathPowerDelayProfile>
+    public class GooComplexMultipathPowerDelayProfileParam : GooPersistentParam<GooComplexMultipathPowerDelayProfile, IComplexMultipathPowerDelayProfile>
     {
         /// <summary> Gets the unique identifier for the component. </summary>
         public override Guid ComponentGuid => new("c3503525-933d-400b-9958-410d9bf418e3");

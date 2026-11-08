@@ -40,7 +40,7 @@ namespace DiGi.Communication.Rhino.Classes
     /// <summary>
     /// The Grasshopper parameter component used to handle and transport <see cref="IAngularPowerDistribution"/> data.
     /// </summary>
-    public class GooAngularPowerDistributionParam : GooPresistentParam<GooAngularPowerDistribution, IAngularPowerDistribution>
+    public class GooAngularPowerDistributionParam : GooPersistentParam<GooAngularPowerDistribution, IAngularPowerDistribution>
     {
         /// <summary>
         /// Gets the unique identifier for the <see cref="GooAngularPowerDistributionParam"/> component.

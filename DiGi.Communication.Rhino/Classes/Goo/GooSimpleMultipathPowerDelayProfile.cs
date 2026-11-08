@@ -41,7 +41,7 @@ namespace DiGi.Communication.Rhino.Classes.Goo
     /// <summary>
     /// Represents a Grasshopper parameter for the simple multipath power delay profile.
     /// </summary>
-    public class GooSimpleMultipathPowerDelayProfileParam : GooPresistentParam<GooSimpleMultipathPowerDelayProfile, ISimpleMultipathPowerDelayProfile>
+    public class GooSimpleMultipathPowerDelayProfileParam : GooPersistentParam<GooSimpleMultipathPowerDelayProfile, ISimpleMultipathPowerDelayProfile>
     {
         /// <summary>
         /// Gets the unique identifier for the component.
